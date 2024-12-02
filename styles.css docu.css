@@ -1,0 +1,23 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff; 
+    z-index: 1000; 
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc; 
+  }
+  
+  body {
+    padding-top: 60px;
+  }
+  
+  .main-section {
+    padding: 20px;
+  }
+  @media (max-height: 600px){
+    .main-section{
+      font-size: 0.7em;
+      
+    }
+  }
